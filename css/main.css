@@ -1,0 +1,5 @@
+ /* dimg{ width: 100%; }o not set width to 100% */
+
+/* make sure images cant be scale past its natural dimentions */
+
+img, embed, object, video { max-width: 100%; } /* keep the image scale to 100% of its width */
